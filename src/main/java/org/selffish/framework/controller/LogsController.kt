@@ -26,6 +26,7 @@ class LogsController() {
                 logger.error(log.message)
             }
         }
+        logger.info("This is a test log!")
 
         return log
     }
